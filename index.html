@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript Documentation</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>Javascript</header>
+        <ul>
+            <li><a class="nav-link" href="#hello_world">Hello World</a></li>
+            <li><a class="nav-link" href="#variables">Variables</a></li>
+            <li><a class="nav-link" href="#constants">Constants</a></li>
+            <li><a class="nav-link" href="#if...else">If...Else</a></li>
+            <li><a class="nav-link" href="#functions">Functions</a></li>
+            <li><a class="nav-link" href="#data_types">Data Types</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="hello_world">
+            <header>Hello World</header>
+            <article>
+                <p>To get started we will do the classic hello world example.</p>
+                <p>Open the web console by pressing ctrl+shift+k and type in the code below and hit enter.</p>
+                <code>console.log('hello world');</code>
+            </article>
+        </section>
+        <section class="main-section" id="variables">
+            <header>Variables</header>
+            <article>
+                <p>Variables allow you store a value and give it a name.</p>
+                <p>Once a variable has been defined it can be used and even changed later on throughout the code.</p>
+                <code>let age = 20;</code>
+            </article>
+        </section>
+        <section class="main-section" id="constants">
+            <header>Constants</header>
+            <article>
+                <p>Constants are similar to variables, they allow you to store a value and give it a name.</p>
+                <p>The main difference between a variable and a constant is you can not change the value of a constant
+                    unlike a variable.</p>
+                <code>const name = john;</code>
+            </article>
+        </section>
+        <section class="main-section" id="if...else">
+            <header>If...Else</header>
+            <article>
+                <p>If...Else statements are known as conditionals, they allow you to make decisions in your code.</p>
+                <p>Run 'x' if the given condition is true, else run 'y' if condition is false.</p>
+                <code>let color = "blue"; if (color === "blue") { console.log("color is blue"); } else { console.log("color is not blue"); }</code>
+            </article>
+        </section>
+        <section class="main-section" id="functions">
+            <header>Functions</header>
+            <article>
+                <p>Functions are reusable blocks of code.</p>
+                <p>They can help eliminate repetitive code, which decreases the size and makes the code cleaner and more
+                    readable. </p>
+                <code>function greet() { console.log("hello"); } greet();</code>
+            </article>
+        </section>
+        <section class="main-section" id="data_types">
+            <header>Data Types</header>
+            <article>
+                <p>There are several different data types in programming languages.</p>
+                <p>Data types define the type of data things are so they can be interpreted properly. </p>
+                <ul>
+                    <li>Number - simple numbers</li>
+                    <li>Boolean - true or false</li>
+                    <li>String - text and characters</li>
+                    <li>Undefined - undefined value</li>
+                    <li>null - null value</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
